@@ -1,10 +1,19 @@
-import App from './app';
+// src/index.ts
+// import App from './app';
+// import { initializeDatabase } from './database'; // Pastikan path benar
 
-const main = () => {
-  // init db here
+// const main = async () => {
+//   try {
+//     // Inisialisasi koneksi database di sini
+//     await initializeDatabase();
 
-  const app = new App();
-  app.start();
-};
+    // Inisialisasi aplikasi
+//     const app = new App();  // Pastikan class App didefinisikan dengan benar
+//     app.start();  // Jalankan server
+//   } catch (error) {
+//     console.error('Error starting the application:', error);
+//     process.exit(1);  // Keluar jika ada error
+//   }
+// };
 
-main();
+// main();
